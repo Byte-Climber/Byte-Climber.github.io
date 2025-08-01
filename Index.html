@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Akil Mohammed - Full-Stack Developer and Founder of Tech Rise Academy.">
+  <meta name="keywords" content="Akil Mohammed, Tech Rise, Developer, Portfolio, Ethiopia, Full-Stack">
+  <meta name="author" content="Akil Mohammed">
+  <title>Akil Mohammed - Portfolio</title>
+  <link rel="icon" href="your-logo.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #000;
+      transition: all 0.3s ease;
+    }
+
+    .dark {
+      background-color: #121212;
+      color: white;
+    }
+
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004d40;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #00796b;
+      font-size: 32px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding-top: 30px;
+    }
+
+    .service-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .dark .service-box {
+      background-color: #1e1e1e;
+      color: white;
+    }
+
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .toggle-button {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      padding: 8px 12px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="toggle-button" onclick="toggleMode()">🌓 Mode</button>
+
+  <header>
+    <h1>Akil Mohammed | Climber</h1>
+    <p><strong><em>Full-Stack Developer | Founder of Tech Rise Academy</em></strong></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p><strong><em>
+        I am a software developer from Ethiopia, currently studying full-stack development at FreeCodeCamp and Coursera. I specialize in building modern websites and mobile applications with a focus on educational platforms. I am the founder of Tech Rise Academy and passionate about teaching others how to code.
+      </em></strong></p>
+    </div>
+  </section>
+
+  <section id="services" style="background-color: #e0f7fa;">
+    <h2>Services I Offer</h2>
+    <div class="container services-grid">
+      <div class="service-box">
+        <h3 style="color: #00695c;">Web Development</h3>
+        <p><strong>
+        I build responsive, clean, and user-friendly websites using HTML, CSS, JavaScript, and modern frameworks.</strong></p>
+      </div>
+      <div class="service-box">
+        <h3 style="color: #00695c;">Mobile App Development</h3>
+        <p><strong>I develop simple and educational mobile apps, especially for learning platforms like Tech Rise Academy.</strong></p>
+      </div>
+      <div class="service-box">
+        <h3 style="color: #00695c;">UI/UX Design</h3>
+        <p><strong>I design modern and intuitive user interfaces that focus on user experience and accessibility.</strong></p>
+      </div>
+      <div class="service-box">
+        <h3 style="color: #00695c;">Mentorship & Training</h3>
+        <p><strong>I help beginners learn programming through mentorship, especially in HTML, CSS, JavaScript, and Python.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong><em>
+        Reach out to me through the platforms below, or connect for collaboration opportunities.
+      </em></strong></p>
+    </div>
+  </section>
+
+  <footer>
+<footer>
+  <p><strong><em>Contact me:
+    <a href="https://www.facebook.com/aaqil.alhaamidii" target="_blank">Facebook</a> |
+    <a href="https://www.linkedin.com/in/akiltech" target="_blank">LinkedIn</a> |
+    <a href="https://t.me/ByteClimber" target="_blank">@ByteClimber</a>
+  </em></strong></p>
+  <p><strong><em>PHONE: +251937579747</em></strong></p>
+  <p>&copy; 2025 Akil Mohammed. All rights reserved.</p>
+</footer>
+    
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+
+</body>
+</html>
